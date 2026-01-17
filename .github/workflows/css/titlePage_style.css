@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* titlePage */
+.hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #6a0dad 0%, #9d4edd 50%, #c77dff 100%);
+      display: flex;
+      flex-direction: row;
+      gap: 200px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 8rem;
+      margin-bottom: 1rem;
+    }
+
+    .mainBtn {
+      background-color: #fff;
+      color: #2c3e50;
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.6s ease;
+    }
+
+    .mainBtn:hover {
+      background: linear-gradient(135deg, #2b004f 0%, #4b007d 50%, #7e3af2 100%);
+      color: #fff;
+    }
+
+/* titlePage */
+
+
+html{
+    scroll-behavior: smooth; 
+}
+
+.rules_section{
+    min-height: 100vh;
+      background: #f7f7f7;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+}
+
+.rules_section h1{
+    font-size: 46px;
+}
+
+.rules_section p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.rulesBtn{
+   background: linear-gradient(135deg, #2b004f 0%, #4b007d 50%, #7e3af2 100%);
+      color: #ffffff;
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.6s ease;
+}
+
+.rulesBtn:hover{
+  transform: translateY(-5px);
+}
